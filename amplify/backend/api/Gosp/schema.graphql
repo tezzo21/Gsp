@@ -1,0 +1,5 @@
+type Talk @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Chat: String!
+  Nature: Boolean!
+} 
